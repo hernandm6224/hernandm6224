@@ -5,9 +5,11 @@ hernandezm
 9/7/2025
 Program will greet the user.
 
-
-
-
+ERROR HANDLING WITH CODESPACES:
+IF it happens:
+"stage changes" , no, push directly
+"commit and sync" , always
+"pull?" doesn't matter
 */
 
 // magic words
