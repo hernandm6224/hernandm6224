@@ -9,10 +9,10 @@ using namespace std;
 int main() {
     // This program will simulate an apple orchard.
     // The owner's name
-    string name = "Melissa Hernandez";
+    string name = "Melissa Hernandez"
     // number of apples owned
-    int apples = 100;
-    double pricePerApple = 0.25;
+    int apples = 100
+    double pricePerApple = 0.25
 
     // calculate the total price of the apples 
     double totalPrice = (double) apples * pricePerApple
