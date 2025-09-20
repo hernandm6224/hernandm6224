@@ -28,7 +28,7 @@ int main() {
 
 
     // Ask how much they'd like to purchase
-
+    cout << "How many " << product << " would you like today? ";
     // Calculate total price
     // Give the result
 
