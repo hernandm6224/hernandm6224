@@ -13,7 +13,7 @@ int main() {
 
     // Set up all variables 
     string first_name, last_name, full_name; // holds customer name
-    string prudct = "apples"; //change to whatever you like
+    string product = "apples"; //change to whatever you like
     int amount_purchased;
     double cost_each = 0.99;
     double total_cost;
