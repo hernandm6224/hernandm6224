@@ -14,8 +14,9 @@ using namespace std;
 
 int main() {
     cout << "Let's roll some dice!" << endl;
-    int seed;
-    cout << "What's your lucky number? "; 
+    int seed = time(0);
+    cout << "Your seed is: " << seed << endl;
+    //cout << "What's your lucky number? "; 
     cin >> seed; 
     // Seed the RNG 
     srand(seed);
@@ -30,6 +31,6 @@ int main() {
 
     roll = (rand() % MAX) + 1; // Divide by MAX, and just keep the remainder
     cout << "Your roll was: " << roll << endl;
-    
+
     return 0;
 }
